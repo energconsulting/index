@@ -5,12 +5,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
     "dev": "vite --port=3000",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "vite build",
-    "preview": "vite preview"
-
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
